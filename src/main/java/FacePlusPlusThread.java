@@ -58,7 +58,6 @@ public class FacePlusPlusThread {
             FileReader reader = new FileReader(filePath);
             BufferedReader br = new BufferedReader(reader);
             String str = null;
-
             while((str = br.readLine()) != null) {
                 String[] array = str.split(" ");
                 traverseFolder(orgPaths,desPaths,array[0],array[2]);
