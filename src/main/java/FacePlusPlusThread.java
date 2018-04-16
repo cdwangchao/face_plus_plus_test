@@ -23,6 +23,8 @@ import java.util.concurrent.atomic.AtomicInteger;
  */
 public class FacePlusPlusThread {
 
+
+
     static final String url = "https://api-cn.faceplusplus.com/facepp/v3/compare";
     static final String api_key = "V4bGVjCYUzbQzwd5vA6GfbKxDDbuieG2";
     static final String api_secret = "jlBfsZEHP1GUVg0YOvuSqykVqnlkb_2N";
@@ -54,6 +56,7 @@ public class FacePlusPlusThread {
     private static void readFile(String filePath) {
         List<String> orgPaths = new ArrayList<>();
         List<String> desPaths = new ArrayList<>();
+
         try {
             FileReader reader = new FileReader(filePath);
             BufferedReader br = new BufferedReader(reader);
