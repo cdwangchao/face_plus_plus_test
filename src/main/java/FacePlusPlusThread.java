@@ -22,9 +22,6 @@ import java.util.concurrent.atomic.AtomicInteger;
  * Created by Administrator on 2018/4/12 0012.
  */
 public class FacePlusPlusThread {
-
-
-
     static final String url = "https://api-cn.faceplusplus.com/facepp/v3/compare";
     static final String api_key = "V4bGVjCYUzbQzwd5vA6GfbKxDDbuieG2";
     static final String api_secret = "jlBfsZEHP1GUVg0YOvuSqykVqnlkb_2N";
